@@ -1,0 +1,56 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Apple Watch 7",
+            "price": 370,
+            "image": "https://purepng.com/public/uploads/large/apple-watch-pcq.png"
+            
+        },
+        {
+            "id": 2,
+            "title": "Iphone 13 Pro Max",
+            "price": 1249,
+            "image": "https://github.com/Romeoprexx/images/blob/main/iphone-13-pro-silver-select-removebg-preview.png?raw=true"
+        },
+        {
+            "id": 3,
+            "title": "Playstation 5",
+            "price": 499,
+            "image": "https://github.com/Romeoprexx/images/blob/main/download__1_-removebg-preview.png?raw=true"
+        },
+        {
+            "id": 4,
+            "title": "Xbox Series S",
+            "price": 250,
+            "image": "https://github.com/Romeoprexx/images/blob/main/11599569247vvfinotfugknrbcqimyz4ifcafmjf9g64qtytiuoy4bwet2q8y0vkyphbahbycow9t24hym0pv51rtqhtlyaafszbtynq2jzwlzu-removebg-preview.png?raw=true"
+        },
+        {
+            "id": 5,
+            "title": "Playsation 5 Pad",
+            "price": 60,
+            "image": "https://github.com/Romeoprexx/images/blob/main/11601894125rvmsaicqkyhnrjr0snlbqmynabiovuwp5h9hu6db7ysmbwovohfeppyy0t1sihhc0drdejm3ar5rm0ocrig8zjx5ugy8z82lhtf5-removebg-preview%20(1).png?raw=true"
+
+        },
+        {
+            "id": 6,
+            "title": "Apple Macbook Pro",
+            "price": 1500,
+            "image": "https://pngimg.com/uploads/macbook/macbook_PNG8.png"
+
+        },
+        {
+            "id": 7,
+            "title": "Microsoft Surface 7",
+            "price": 600,
+            "image": "https://github.com/Romeoprexx/images/blob/main/352-3525356_microsoft-surface-laptop-ms-surface-laptop-png-removebg-preview.png?raw=true"
+        },
+        {
+            "id": 8,
+            "title": "Google Pixel 5",
+            "price": 550,
+            "image": "https://i.pinimg.com/originals/d5/d5/b1/d5d5b1697ce89e467896f278029eb524.png"
+        }
+       
+    ]
+}

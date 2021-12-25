@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Benne&family=Bitter&family=Charm&family=Charmonman&family=Emilys+Candy&family=Lato:wght@300&family=Luckiest+Guy&family=Mountains+of+Christmas&family=Orbitron:wght@500&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+  <nav class="nav">
+    <div class="nav__center container">
+      <div class="nav__logo">
+        <a href="#"><img class="image" src="https://logos.textgiraffe.com/logos/logo-name/Romeo-designstyle-colors-m.png"></a>
+      </div>
+      <div class="header-items">
+        <a href="#" class="write">
+          <h3>Products</h3>
+        </a>
+        <a href="#" class="write">
+          <p>Flash <span>Sales</span></p>
+        </a>
+  
+        <div class="search">
+          <label for="form"></label>
+          <input type="search" placeholder="     Search for products, brands and categories...." class="searchTxt">
+          <a href="#"><button class="search-btn">Search</button></a>
+          <span class="help"><i class="fas fa-question-circle"></i><span class="helP"> Help </span></span>
+         
+        </div>
+      </div>
+
+      <ul class="nav__list">
+        <a href="#" class="login">Login</a>
+        <div class="cart__icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="item__total">0</span>
+        </div>
+      </ul>
+    </div>
+  </nav>
+ 
+  <section class="products">
+    <div class="product__center">
+      
+       <div class="product">
+        <div class="image__container">
+          <img class="imgs" src="https://purepng.com/public/uploads/large/apple-watch-pcq.png" alt="" />
+        </div>
+        <div class="product__footer">
+          <h1>Applw Watch 7</h1>
+          <div class="rating">
+           <p class="stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+           </p>
+          </div>
+          <div class="bottom">
+            <div class="btn__group">
+              <a href="#" class="btn addToCart">Add to Cart</a>
+              <a href="#" class="btn view">view</a>
+            </div>
+            <div class="price">£370</div>
+          </div>
+        </div>
+      </div> 
+      
+      
+    </div>
+  </section>
+
+ <!----> <section class="cart__overlay">
+    <div class="cart">
+      <span class="close__cart">
+        <i class="fas fa-times"></i>
+      </span>
+      <h1 class="cartwrite">Cart</h1>
+      <div class="cart__centent">
+      
+        <!---- <div class="cart__item">
+          <img src="https://purepng.com/public/uploads/large/apple-watch-pcq.png" alt="">
+          <div>
+            <h3>Apple Watch 7</h3>
+            <h3 class="price">£370</h3>
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-angle-up"></i>
+            </span>
+            <p>3</p>
+            <span>
+              <i class="fas fa-angle-down"></i>
+            </span>
+          </div>
+
+          <div>
+            <span class="remove__item">
+              <i class="fas fa-trash"></i>
+            </span>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="cart__footer">
+        <h3 class="tot">Total: £ <span class="cart__total">0</span></h3>
+        <button class="clear__cart btn1 btn">Clear Cart <i class="fas fa-trash"></i></button>
+        <button class="payment">Checkout <i class="fas fa-credit-card"></i></button>
+        <p id="para">Thanks for Shopping with Us!</p>
+      </div>
+      <div class="paymentOption">
+         <h3 class="accept">We Accept The Following Cards</h3>
+         <span class="cards">
+           <i class="fab fa-cc-visa"></i>
+           <i class="fab fa-cc-mastercard"></i>
+           <i class="fab fa-cc-apple-pay"></i>
+           <i class="fab fa-cc-amex"></i>
+         </span>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
